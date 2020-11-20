@@ -1,3 +1,26 @@
+# The Chakras app 
+
+# Deadline = 25/11/2020
+
+## What is the website about
+* the seven chakras 
+
+
+
+## What stack was used to make the website
+* Framework :- React 
+* Bootstrapped with create-react-app
+* particle effect = react-particles-js
+* css :- styled-components
+> Not Backend 
+> static website
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
