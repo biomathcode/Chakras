@@ -1,6 +1,30 @@
 body{
   background-color: black;
   color: white;
+  font-family: 'Essays';
+  cursor: crosshair;
+}
+@font-face {
+  font-family: 'Essays' ;
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Essays' ;
+  font-weight: bold;
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Essays' ;
+  font-weight: italic;
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Italic.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Essays' ;
+  font-weight: Bold italic;
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-BoldItalic.ttf') format('truetype'),
 }
 
 .particle_container{
@@ -22,6 +46,56 @@ body{
 }
 
 button{
-  z-index: 999;
+  all: unset;
+  z-index: 997;
   cursor: pointer;
+  transition: transform .2s;
+}
+
+button:hover{
+  align-items: flex-start;
+  z-index: 999;
+  -ms-transform: rotate(360deg) scale(1.5); /* IE 9 */
+  -webkit-transform:  rotate(360deg) scale(1.5); /* Safari 3-8 */
+  transform: rotate(360deg) scale(1.5); 
+}
+
+.button7{
+  position: absolute;
+  top: 18%;
+  left: 48.4%;
+}
+.button6 {
+  position: absolute;
+  top: 24.5%;
+  left: 48.4%;
+}
+.button5 {
+  position: absolute;
+  top: 31.5%;
+  left: 48.4%;
+}
+.button4 {
+  position: absolute;
+  top: 37.5%;
+  left: 48.4%;
+}
+.button3 {
+  position: absolute;
+  top: 44.2%;
+  left: 48.4%;
+}
+.button2 {
+  position: absolute;
+  top: 51%;
+  left: 48.4%;
+}
+.button1 {
+  position: absolute;
+  top: 58%;
+  left: 48.4%;
+}
+
+.hide {
+  display: none;
 }

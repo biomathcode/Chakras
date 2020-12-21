@@ -2,30 +2,86 @@ import React from 'react'
 import './App.css';
 import { useSpring, animated} from 'react-spring'
 import Particles from './components/Particles'
-import BodyMap from './Media/BodyMap.png'
-import AnimatedLogo from './svg/Animated';
+import BodyMap from './svg/completeBody.svg'
+import ChakraOne from './asserts/chakraone.svg'
+import ChakraTwo from './asserts/chakratwo.svg'
+import ChakraThree from './asserts/chakrathree.svg';
+import ChakraFour from './asserts/chakrafour.svg'
+import ChakraFive from './asserts/chakrafive.svg';
+import ChakraSix from './asserts/chakrasix.svg';
+import ChakraSeven from './asserts/chakraseven.svg';
+import {useHistory} from 'react-router-dom';
+
 
 function App() {
   const props = useSpring({opacity: 1, from : {opacity: 0}})
-  const transition = useSpring({opacity: 1, from : {opacity: 0}})
 
-  const handleClick=()=>   {
-    alert('hello')
-  }
+  const history = useHistory();
+
+  const chakradata = [
+    {
+      name: "chakraone",
+      src: ChakraOne,
+      class: "button1",
+      key: '#123'
+  }, 
+  {
+    name: "chakratwo",
+    src: ChakraTwo,
+    class: "button2",
+    key: '#123522'
+  },
+  {
+    name: 'chakrathree',
+    src: ChakraThree,
+    class: "button3",
+    key: '#143526'
+  },
+  {
+    name: "chakrafour",
+    src: ChakraFour,
+    class: "button4",
+    key: '#232543'
+  },
+  {
+    name: "chakrafive",
+    src: ChakraFive,
+    class: "button5",
+    key: '#232asd'
+  }, 
+  {
+    name: "chakrasix",
+    src: ChakraSix,
+    class: "button6",
+    key: '#2648846'
+  },
+  {
+    name: "chakraseven",
+    src: ChakraSeven,
+    class: "button7",
+    key: '#24573785'
+  }]
+
   return (
     <div className="App">
-
       <div className="particle_container">
       <Particles className="particles"/>
       </div>
-
       <div className="sub-container">
         <animated.img style={props} src={BodyMap} className="image" alt="logo" width="400px" height="400px"/>
-        <button onClick={handleClick}>1</button>
-        <animated.h1 style={props}>
-          Chakras
-        </animated.h1>
-        <AnimatedLogo/>
+        {chakradata.map((chakra) => {
+          return (
+        <div key={chakra.key} style={{"display": "flex"}}>
+              <button type="button" onClick={() => history.push("/" + chakra.name)} className={chakra.class}>
+                <img src={chakra.src} width='45' height="45" alt={chakra.name}/>
+              </button>
+              <div className="hide">
+                {chakra.name}
+              </div>
+        </div>
+          )
+        })}
+        <p>Click on the Chakras to know more...</p> 
       </div>
     </div>
   );
