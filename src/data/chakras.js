@@ -1,5 +1,5 @@
-
-export const data = [{
+export const data = [
+{
     "Name": "Muladhara", 
     "Location": "4", 
     "Color": "Red",
@@ -13,7 +13,7 @@ export const data = [{
     "Color": "Red",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ipsum dui. Vivamus molestie justo enim, nec convallis justo dignissim a. Nunc nec tempus massa. Quisque fringilla, velit in vulputate congue, mauris elit tempor ligula, eget vulputate mauris nulla nec est. Donec vel risus nec urna placerat vulputate. Mauris sem risus, dapibus a elementum non, pulvinar ac nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam eleifend felis ac volutpat accumsan. Fusce vestibulum est massa, sed viverra erat placerat eu.",
     "Introduction": "Proin ac nisl vitae urna egestas vestibulum id sit amet metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque dolor id tellus convallis, at eleifend turpis faucibus. Nullam viverra tincidunt purus non egestas. Quisque ac velit eget magna convallis fermentum. Vivamus gravida porta metus vitae sodales. Pellentesque mattis ante accumsan ex vehicula, vel facilisis libero aliquam. Curabitur facilisis blandit dui. Vivamus luctus, turpis at varius congue, neque felis eleifend diam, at malesuada mauris turpis ut sem. Donec eu ipsum id ante egestas sagittis sed quis erat. Quisque non hendrerit nibh. Maecenas bibendum, mauris eu imperdiet bibendum, nibh turpis pellentesque massa, ac accumsan felis massa at dolor. Suspendisse at porta mauris. Sed efficitur porta purus nec pretium. Curabitur posuere libero arcu, non efficitur massa vestibulum eget.",
-    "Activation": "Quisque tristique velit in eros volutpat, in vehicula nulla sagittis. Nullam ullamcorper sapien in odio euismod malesuada. Maecenas ac molestie lectus. Aenean ipsum arcu, egestas sit amet pharetra ac, tincidunt ac dui. Quisque at faucibus metus. Donec gravida aliquam orci fringilla hendrerit. Donec fermentum odio et neque luctus, eu pellentesque justo congue. Fusce sit amet facilisis lacus. Suspendisse quis libero vel risus porttitor tincidunt non et libero. Nunc malesuada vulputate euismod. Sed erat leo, efficitur non nunc ac, sollicitudin pellentesque nisi. Mauris diam ante, accumsan eu sagittis eu, eleifend nec lacus.",
+    "Activation": "Quisque tristique velit in eros volutpat, <br/> in vehicula nulla sagittis. Nullam ullamcorper sapien in odio euismod malesuada. Maecenas ac molestie lectus. Aenean ipsum arcu, egestas sit amet pharetra ac, tincidunt ac dui. Quisque at faucibus metus. Donec gravida aliquam orci fringilla hendrerit. Donec fermentum odio et neque luctus, eu pellentesque justo congue. Fusce sit amet facilisis lacus. Suspendisse quis libero vel risus porttitor tincidunt non et libero. Nunc malesuada vulputate euismod. Sed erat leo, efficitur non nunc ac, sollicitudin pellentesque nisi. Mauris diam ante, accumsan eu sagittis eu, eleifend nec lacus.",
 },
 {
     "Name": "Manipura", 
@@ -24,7 +24,7 @@ export const data = [{
     "Activation": "Quisque tristique velit in eros volutpat, in vehicula nulla sagittis. Nullam ullamcorper sapien in odio euismod malesuada. Maecenas ac molestie lectus. Aenean ipsum arcu, egestas sit amet pharetra ac, tincidunt ac dui. Quisque at faucibus metus. Donec gravida aliquam orci fringilla hendrerit. Donec fermentum odio et neque luctus, eu pellentesque justo congue. Fusce sit amet facilisis lacus. Suspendisse quis libero vel risus porttitor tincidunt non et libero. Nunc malesuada vulputate euismod. Sed erat leo, efficitur non nunc ac, sollicitudin pellentesque nisi. Mauris diam ante, accumsan eu sagittis eu, eleifend nec lacus.",
 },
 {
-    "Name": "Anahata", 
+    "Name": "Anahata",      
     "Location": "4", 
     "Color": "Red",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ipsum dui. Vivamus molestie justo enim, nec convallis justo dignissim a. Nunc nec tempus massa. Quisque fringilla, velit in vulputate congue, mauris elit tempor ligula, eget vulputate mauris nulla nec est. Donec vel risus nec urna placerat vulputate. Mauris sem risus, dapibus a elementum non, pulvinar ac nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam eleifend felis ac volutpat accumsan. Fusce vestibulum est massa, sed viverra erat placerat eu.",

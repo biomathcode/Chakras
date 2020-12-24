@@ -10,10 +10,7 @@ export const Table = ({data}) => {
     return(
         <table key={data.Location} className="container_tb">
             <tr className="tb_row">
-
-                    <th className="column-name">Name</th>
-
-                
+                <th className="column-name">Name</th>                
                 <th className="column-value">{data.Name}</th>
             </tr >
             <tr className="tb_row">
@@ -84,7 +81,7 @@ export const Introduction = ({data}) => {
 export const Description = ({data}) => {
     return (
         <div>
-            <h3>Description</h3>
+            <h2>Description</h2>
             <p>{data.Description}</p>
         </div>
     )
@@ -102,7 +99,6 @@ const BlogTemplate = () => {
             </div>
             <Description data={data[0]} />
             <Introduction data={data[0]} />
-
             <Activation data={data[0]} />
         </div>
     )

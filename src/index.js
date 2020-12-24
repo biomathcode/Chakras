@@ -7,7 +7,7 @@ import BlogTemplate from './Template/BlogTemplate';
 import reportWebVitals from './reportWebVitals';
 import ChakraOne from './components/ChakraOne';
 import ChakraTwo from './components/ChakraTwo';
-import ChakraThree from './components/ChakraTwo';
+import ChakraThree from './components/ChakraThree';
 import ChakraFour from './components/ChakraFour';
 import ChakraFive from './components/ChakraFive';
 import ChakraSix from  './components/ChakraSix';

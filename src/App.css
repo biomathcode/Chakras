@@ -1,32 +1,41 @@
 body{
   background-color: black;
   color: white;
-  font-family: 'Essays';
+  font-family: 'StarJedi';
   cursor: crosshair;
 }
 @font-face {
+  font-family: 'StarJedi';
+  src: local('StarJedi'), url('./Media/fonts/StarJediOutline-y0xm.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Essays' ;
-  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743.ttf') format('truetype'),
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Essays' ;
   font-weight: bold;
-  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Bold.ttf') format('truetype'),
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Essays' ;
   font-weight: italic;
-  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Italic.ttf') format('truetype'),
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Essays' ;
   font-weight: Bold italic;
-  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-BoldItalic.ttf') format('truetype'),
+  src: local('Essays'), url('./Media/fonts/essays1743/Essays1743-BoldItalic.ttf') format('truetype');
 }
-
+@font-face {
+  font-family:"Star Jedi Hollow";
+  font-weight:normal;
+  font-style:normal;
+  src: local('Star Jedi Hollow'), url("./Media/fonts/Star_Jedi_Hollow/Starjhol.ttf") format("truetype");
+}
 .particle_container{
   position: absolute;
   top: 0;
@@ -98,4 +107,9 @@ button:hover{
 
 .hide {
   display: none;
+}
+
+.header{
+  color: white;
+  font-weight: bolder;
 }

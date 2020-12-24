@@ -1,12 +1,11 @@
 import React from 'react';
-
+import "../Template/blog_template.css"
 import {Table, ChakraContainer, ContentHeader, SEOhelate, Activation, Introduction, Description} from '../Template/BlogTemplate'
-import {data} from '../data/chakras';
-
+import {data} from '../data/chakras';   
 import {AnimeFour} from '../svg/Animated'
 const ChakraFour = () =>{
     return(
-        <div>
+        <div className="root">
             <ChakraContainer>
                 <AnimeFour />
             </ChakraContainer>

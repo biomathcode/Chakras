@@ -68,6 +68,7 @@ function App() {
       <Particles className="particles"/>
       </div>
       <div className="sub-container">
+        
         <animated.img style={props} src={BodyMap} className="image" alt="logo" width="400px" height="400px"/>
         {chakradata.map((chakra) => {
           return (
@@ -81,6 +82,7 @@ function App() {
         </div>
           )
         })}
+        <h1 className="header">Chakras</h1>
         <p>Click on the Chakras to know more...</p> 
       </div>
     </div>
