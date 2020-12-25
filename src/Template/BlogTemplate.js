@@ -89,11 +89,10 @@ export const Activation = ({data}) => {
     )
 }
 export const Introduction = ({data}) => {
-    const Formateddata = JSON.stringify(data.Introduction)
     return (
         <div>
             <h2>Introduction</h2>
-            <div className="just-line-break">{Formateddata}</div>
+            <div>{data.Introduction}</div>
         </div>
     )
 }

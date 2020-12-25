@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import BlogTemplate from './Template/BlogTemplate';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import ChakraOne from './components/ChakraOne';
 import ChakraTwo from './components/ChakraTwo';
@@ -12,19 +11,19 @@ import ChakraFour from './components/ChakraFour';
 import ChakraFive from './components/ChakraFive';
 import ChakraSix from  './components/ChakraSix';
 import ChakraSeven from './components/ChakraSeven';
-import ContentMarkdown from './components/ContentMarkdown';
+import NoMatch from './components/NoMatch';
 const AppMain = () => (
-  <Router>
+  <Router basename="/">
     <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/chakra" component={BlogTemplate} />
-      <Route path="/chakraOne" component={ChakraOne} />
-      <Route path="/chakraTwo" component={ChakraTwo} />
-      <Route path="/chakraThree" component={ChakraThree} />
-      <Route path="/chakraFour" component={ChakraFour} />
-      <Route path="/chakraFive" component={ChakraFive} />
-      <Route path="/chakraSix" component={ChakraSix} />
-      <Route path="/chakraSeven" component={ChakraSeven} />
+      <Route path="/" exact component={App} />
+      <Route  path="/Muladhara" component={ChakraOne} />
+      <Route  path="/Svadhisthana" component={ChakraTwo} />
+      <Route  path="/Manipura" component={ChakraThree} />
+      <Route  path="/Anahata" component={ChakraFour} />
+      <Route  path="/Vishuddha" component={ChakraFive} />
+      <Route  path="/Ajna" component={ChakraSix} />
+      <Route  path="/Sahasrara" component={ChakraSeven} />
+      <Route path="*" component={NoMatch} />
     </Switch>
   </Router>
 )

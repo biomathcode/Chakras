@@ -20,43 +20,43 @@ function App() {
 
   const chakradata = [
     {
-      name: "chakraone",
+      name: "Muladhara",
       src: ChakraOne,
       class: "button1",
       key: '#123'
   }, 
   {
-    name: "chakratwo",
+    name: "Svadhisthana",
     src: ChakraTwo,
     class: "button2",
     key: '#123522'
   },
   {
-    name: 'chakrathree',
+    name: 'Manipura',
     src: ChakraThree,
     class: "button3",
     key: '#143526'
   },
   {
-    name: "chakrafour",
+    name: "Anahata",
     src: ChakraFour,
     class: "button4",
     key: '#232543'
   },
   {
-    name: "chakrafive",
+    name: "Vishuddha",
     src: ChakraFive,
     class: "button5",
     key: '#232asd'
   }, 
   {
-    name: "chakrasix",
+    name: "Ajna",
     src: ChakraSix,
     class: "button6",
     key: '#2648846'
   },
   {
-    name: "chakraseven",
+    name: "Sahasrara",
     src: ChakraSeven,
     class: "button7",
     key: '#24573785'
