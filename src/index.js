@@ -12,7 +12,7 @@ import ChakraFour from './components/ChakraFour';
 import ChakraFive from './components/ChakraFive';
 import ChakraSix from  './components/ChakraSix';
 import ChakraSeven from './components/ChakraSeven';
-
+import ContentMarkdown from './components/ContentMarkdown';
 const AppMain = () => (
   <Router>
     <Switch>
@@ -25,6 +25,7 @@ const AppMain = () => (
       <Route path="/chakraFive" component={ChakraFive} />
       <Route path="/chakraSix" component={ChakraSix} />
       <Route path="/chakraSeven" component={ChakraSeven} />
+      <Route path="/markdown" component={ContentMarkdown} />
     </Switch>
   </Router>
 )

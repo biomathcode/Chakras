@@ -8,16 +8,23 @@
     align-items: center;
     align-content: center;
 }
-table{
-    border: 1px solid yellow;
-    border-radius: 20px;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+table {
+    border: 1px solid white;   
+    padding: 12px;
+    padding-left: 17px;
+    border-radius: 15px;
 }
-
-tr{
-    border-right: 1px solid yellow;
-    font-size: bold; 
+th {
+    border-right: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    color: yellowgreen
+}
+td {
+    border: 1px solid white;   
+    padding: 12px;
+    padding-left: 17px;
+    border-radius: 15px;
 }
 
 h1{
@@ -34,3 +41,12 @@ h1{
     justify-content: center;
 }
 
+.just-line-break {
+    white-space: pre-line;
+}
+
+.container {
+    margin: 500;
+    max-width: 50;
+    
+}

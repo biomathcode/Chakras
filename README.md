@@ -1,6 +1,6 @@
 # The Chakras app 
 
-# Deadline = 25/11/2020
+# Deadline = 27/12/2020
 
 ## What is the website about
 * the seven chakras 
