@@ -25,7 +25,6 @@ const AppMain = () => (
       <Route path="/chakraFive" component={ChakraFive} />
       <Route path="/chakraSix" component={ChakraSix} />
       <Route path="/chakraSeven" component={ChakraSeven} />
-      <Route path="/markdown" component={ContentMarkdown} />
     </Switch>
   </Router>
 )
