@@ -10,6 +10,7 @@ import Anahata from './components/ChakraFour';
 import Vishuddha from './components/ChakraFive';
 import Ajna from  './components/ChakraSix';
 import Sahasrara from './components/ChakraSeven';
+import NoMatch from './components/NoMatch';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route  path="/Vishuddha" component={Vishuddha} />
             <Route  path="/Ajna" component={Ajna} />
             <Route  path="/Sahasrara" component={Sahasrara} />
+            <Route path="*" component={NoMatch} />
         </Switch>
       </BrowserRouter>
     </div>
