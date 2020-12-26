@@ -3,7 +3,7 @@ import "./blog_template.css"
 import AnimatedLogo from '../svg/Animated'
 import {data} from '../data/chakras'
 import { useSpring, animated} from 'react-spring'
-import {Helmet} from 'react-helmet';;
+import {Helmet} from 'react-helmet';
 
 
 export const Table = ({data}) => {
@@ -76,8 +76,8 @@ export const SEOhelate = ({data}) => {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>{data.Name}</title>
-                <link rel="icon" href="../asserts/chakraone.svg" type="image/svg" sizes="16x16" />
-      </Helmet>
+                <link id="favicon" rel="icon" href={data.Flavicon} type="image/x-icon"/>
+        </Helmet>
     )
 }
 export const Activation = ({data}) => {

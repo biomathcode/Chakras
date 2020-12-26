@@ -15,7 +15,7 @@ const ChakraOne = () =>{
             <Description data={data[0]} />
             <Introduction data={data[0]} />
             <Activation data={data[0]} />
-            
+
         </div>
     )
 }

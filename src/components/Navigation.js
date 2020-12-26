@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSpring, animated} from 'react-spring'
-
 import { Link} from 'react-router-dom';
 import BodyMap from '../svg/completeBody.svg'
 import ChakraOne from '../asserts/chakraone.svg'
@@ -10,7 +9,9 @@ import ChakraFour from '../asserts/chakrafour.svg'
 import ChakraFive from '../asserts/chakrafive.svg';
 import ChakraSix from '../asserts/chakrasix.svg';
 import ChakraSeven from '../asserts/chakraseven.svg';
+import {Helmet} from 'react-helmet';
 
+import Flavicon from '../asserts/favicons/chakraone.ico'
 
 const Navigation = () => {
     const props = useSpring({opacity: 1, from : {opacity: 0}})
@@ -60,9 +61,12 @@ const Navigation = () => {
   }]
   return  (
     <div>
-        
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title> Chakras </title>
+                <link id="favicon" rel="icon" href={Flavicon} type="image/x-icon"/> 
+      </Helmet>
         <div className="sub-container">
-            
             <animated.img style={props} src={BodyMap} className="image" alt="logo" width="400px" height="400px"/>
             {chakradata.map((chakra) => {
             return (

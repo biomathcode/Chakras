@@ -1,6 +1,7 @@
 export const data = [
-{
-    "Name": "Muladhara", 
+{   
+    "Name": "Muladhara",
+    "Flavicon": "../asserts/favicons/chakraone.ico", 
     "Color": "Red",
     "Element": "Earth",
     "Function": "Survival,Survival, Stability, security, self-confidence",
@@ -16,6 +17,7 @@ export const data = [
 },
 {
     "Name": "Svadhisthana", 
+    "Flavicon": "../asserts/favicons/chakratwo.ico",
     "Color": "Orange",
     "Element": "Water",
     "Function": "desire and procreation, sexuality, emotions, creativity",
@@ -31,6 +33,7 @@ export const data = [
 },
 {
     "Name": "Manipura", 
+    "Flavicon": "../asserts/favicons/chakrathree.ico",
     "Color": "Yellow",
     "Element": "fire",
     "Function": " power, strength, self-esteem, expansiveness, life awareness, action, will and pleasure",
@@ -45,7 +48,8 @@ export const data = [
     "Activation": "",
 },
 {
-    "Name": "Anahata",      
+    "Name": "Anahata",  
+    "Flavicon": "../asserts/favicons/chakrafour.ico",    
     "Color": "Green",
     "Element": "Air",
     "Function": " love, humility, compassion, generosity, openness to others",
@@ -61,6 +65,7 @@ export const data = [
 },
 {
     "Name": "Vishuddha", 
+    "Flavicon": "../asserts/favicons/chakrafive.ico",
     "Color": "Light blue",
     "Element": "Ether",
     "Function": "communication, opening to others, listening ",
@@ -76,6 +81,7 @@ export const data = [
 },
 {
     "Name": "Ajna", 
+    "Flavicon": "../asserts/favicons/chakrasix.ico",
     "Color": "purple or indigo",
     "Element": "Light",
     "Function": "Intuition, Imagination, Foresight",
@@ -91,6 +97,7 @@ export const data = [
 },
 {
     "Name": "Sahasrara", 
+    "Flavicon": "../asserts/favicons/chakraseven.ico",
     "Color": "White, deep purple",
     "Element": "Metal",
     "Function": "knowledge, universal awareness or pure awareness",
