@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Template/blog_template.css"
-import {Table, ChakraContainer, ContentHeader,Effect, SEOhelate, Activation, Introduction, Description, BalancedState} from '../Template/BlogTemplate'
+import {Table, ChakraContainer, ContentHeader,Effect, SEOhelate, Activation, Introduction, Description} from '../Template/BlogTemplate'
 import {Link} from 'react-router-dom';
 import {data} from '../data/chakras';
 import {AnimeThree} from '../svg/Animated'
