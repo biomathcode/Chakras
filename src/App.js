@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {HashRouter, Switch, Route} from 'react-router-dom'
 import Navigation from './components/Navigation';
 import Particles from './components/Particles'
 import Muladhara from './components/ChakraOne';
@@ -18,7 +18,7 @@ function App() {
       <div className="particle_container">
         <Particles className="particles"/>
         </div>
-      <BrowserRouter>
+      <HashRouter>
       <ScrollToTop/>
       <Switch>
             <Route exact path="/" component={Navigation}/>
@@ -31,7 +31,7 @@ function App() {
             <Route  path="/Sahasrara" component={Sahasrara} />
             <Route path="*" component={NoMatch} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
