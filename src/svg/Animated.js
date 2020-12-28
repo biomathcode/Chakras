@@ -21,22 +21,22 @@ import {ReactComponent as ChakraMap} from './labelled.svg'
 import styled, {keyframes} from 'styled-components'
 
 
-const rotate=() => keyframes`
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-`
-const antirotate = keyframes`
-    from{
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(-360deg);
-    }
-`
+// const rotate=() => keyframes`
+//     from {
+//         transform: rotate(0deg);
+//     }
+//     to {
+//         transform: rotate(360deg);
+//     }
+// `
+// const antirotate = keyframes`
+//     from{
+//         transform: rotate(0deg);
+//     }
+//     to {
+//         transform: rotate(-360deg);
+//     }
+// `
 const scale = keyframes`
     0%{
         transform: scale(1)
@@ -48,17 +48,17 @@ const scale = keyframes`
         transform: scale(1)
     }
 `
-const fade = keyframes`
-0% {
-fill:#61DAFB;
-}
-50% {
- fill:#000;
-}
-100%{
-  fill:#61DAFB;
-}
-`;
+// const fade = keyframes`
+// 0% {
+// fill:#61DAFB;
+// }
+// 50% {
+//  fill:#000;
+// }
+// 100%{
+//   fill:#61DAFB;
+// }
+// `;
 
 const pulse = keyframes`
 0% {
