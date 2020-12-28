@@ -2,7 +2,6 @@ import React from 'react';
 import Particles from 'react-particles-js'
 
 function ParticleContainer () {
-
     return (
         (
             <div style={{
@@ -15,16 +14,17 @@ function ParticleContainer () {
             >
                 <Particles
                     params={{
-                        particles: {
-                            number: {
-                                value: 200, 
-                                density: {
+                        "particles": {
+                            "number": {
+                                "value": 200, 
+                                "density": {
                                     enable: true,
                                     value_area: 3600 
-                                }
+                                },
                             }
                         },
-                        retina_detect: true
+
+                        "retina_detect": true
                 }}
             />
             </div>

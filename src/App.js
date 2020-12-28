@@ -11,7 +11,7 @@ import Vishuddha from './components/ChakraFive';
 import Ajna from  './components/ChakraSix';
 import Sahasrara from './components/ChakraSeven';
 import NoMatch from './components/NoMatch';
-
+import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,7 @@ function App() {
         <Particles className="particles"/>
         </div>
       <BrowserRouter>
+      <ScrollToTop/>
       <Switch>
             <Route exact path="/" component={Navigation}/>
             <Route  path="/Muladhara" component={Muladhara} />

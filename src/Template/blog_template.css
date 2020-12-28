@@ -28,7 +28,7 @@ td {
 }
 
 h1{
-    font-size: 65px;
+    font-size: 5rem;
     font-weight: bold;
     text-align: center;
 }
@@ -47,6 +47,23 @@ h1{
 
 .container {
     margin: 500;
-    max-width: 50;
-    
+    max-width: 50;   
+}
+.footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.previousLink {
+    align-self: flex-start;
+}
+
+.nextLink {
+    align-self: flex-end;
+}
+
+.contentstyle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }

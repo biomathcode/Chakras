@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSpring, animated} from 'react-spring'
 import { Link} from 'react-router-dom';
-import BodyMap from '../svg/completeBody.svg'
+
 import ChakraOne from '../asserts/chakraone.svg'
 import ChakraTwo from '../asserts/chakratwo.svg'
 import ChakraThree from '../asserts/chakrathree.svg';
@@ -10,11 +10,10 @@ import ChakraFive from '../asserts/chakrafive.svg';
 import ChakraSix from '../asserts/chakrasix.svg';
 import ChakraSeven from '../asserts/chakraseven.svg';
 import {Helmet} from 'react-helmet';
-
+import {ChakraMapAnimated} from '../svg/Animated';
 import Flavicon from '../asserts/favicons/chakraone.ico'
-
 const Navigation = () => {
-    const props = useSpring({opacity: 1, from : {opacity: 0}})
+  const props = useSpring({opacity: 1, from : {opacity: 0}})
 
   const chakradata = [
     {
@@ -67,8 +66,11 @@ const Navigation = () => {
                 <link id="favicon" rel="icon" href={Flavicon} type="image/x-icon"/> 
       </Helmet>
         <div className="sub-container">
-            <animated.img style={props} src={BodyMap} className="image" alt="logo" width="400px" height="400px"/>
-            {chakradata.map((chakra) => {
+            <animated.div style={props}>
+              <ChakraMapAnimated />
+            </animated.div>
+            {/* <animated.img style={props} src={BodyMap} className="image" alt="logo" width="360px " height="360px"/> */}
+            {/* {chakradata.map((chakra) => {
             return (
             <div key={chakra.key} style={{"display": "flex"}}>
                 <Link to={"/" + chakra.name}>
@@ -82,8 +84,8 @@ const Navigation = () => {
                 </div>
             </div>
             )
-            })}
-            <h1 className="header">Chakras</h1>
+            })} */}
+            <animated.h1 style={props} className="header">Chakras</animated.h1>
             <p>Click on the Chakras to know more...</p> 
         </div>
     </div>

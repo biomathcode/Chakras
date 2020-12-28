@@ -1,7 +1,6 @@
 import React from 'react'
 import "./blog_template.css"
-import AnimatedLogo from '../svg/Animated'
-import {data} from '../data/chakras'
+
 import { useSpring, animated} from 'react-spring'
 import {Helmet} from 'react-helmet';
 
@@ -84,7 +83,7 @@ export const Activation = ({data}) => {
     return(
         <div>
             <h2>Activation</h2>
-            <p>{data.Activation}</p>
+            <p className="contentstyle">{data.Activation}</p>
         </div>
     )
 }
@@ -92,7 +91,7 @@ export const Introduction = ({data}) => {
     return (
         <div>
             <h2>Introduction</h2>
-            <div>{data.Introduction}</div>
+            <p className="contentstyle">{data.Introduction}</p>
         </div>
     )
 }
@@ -100,26 +99,26 @@ export const Description = ({data}) => {
     return (
         <div>
             <h2>Description</h2>
-            <p>{data.Description}</p>
+            <p className="contentstyle">{data.Description}</p>
         </div>
     )
 }
-const BlogTemplate = () => {
+export const Effect = ({data}) => {
     return(
         <div>
-            <ChakraContainer>
-                <AnimatedLogo/>
-            </ChakraContainer>
-            <SEOhelate data={data[0]}/>
-            <ContentHeader data={data[0]}/>
-            <div className="tableCon">
-                <Table data={data[0]} />
-            </div>
-            <Description data={data[0]} />
-            <Introduction data={data[0]} />
-            <Activation data={data[0]} />
+            <h2>Effect</h2>
+            <p className="contentstyle">{data.Effect}</p>
         </div>
     )
 }
 
-export default BlogTemplate;
+export const BalancedState = ({data}) => {
+    return(
+        <div>
+            <h2>Balanced State</h2>
+            <p className="contentstyle">{data.Balanced}</p>
+        </div>
+    )
+}
+
+

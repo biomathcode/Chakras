@@ -1,6 +1,9 @@
 import React from 'react';
 import "../Template/blog_template.css"
-import {Table, ChakraContainer, ContentHeader, SEOhelate, Activation, Introduction, Description} from '../Template/BlogTemplate'
+import {Table, ChakraContainer, ContentHeader, SEOhelate,Effect, BalancedState, Activation, Introduction, Description} from '../Template/BlogTemplate'
+import {Link} from 'react-router-dom';
+import ChakraFour from "../asserts/chakrafour.svg";
+import ChakraSix from "../asserts/chakrasix.svg";
 import {data} from '../data/chakras';
 import {AnimeFive} from '../svg/Animated'
 const ChakraFive = () =>{
@@ -16,7 +19,22 @@ const ChakraFive = () =>{
             </div>
             <Description data={data[4]} />
             <Introduction data={data[4]} />
+            <Effect data={data[4]} />
+            <BalancedState data={data[4]} />
             <Activation data={data[4]} />
+            <div className="footer">
+                <Link to="/Anahata" className="previousLink">
+                    <button>
+                        <img src={ChakraFour} width='45' height="45" alt="chakraTwo"/>
+                    </button>
+                </Link>
+                <Link to="/Ajna" className="nextLink">
+                    <button>
+                        <img src={ChakraSix} width='45' height="45" alt="chakraFour"/>
+                    </button>
+                </Link>
+
+            </div>
         </div>
     )
 }
