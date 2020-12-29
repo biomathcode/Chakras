@@ -4,7 +4,8 @@ import {Table, ChakraContainer, ContentHeader,Effect, SEOhelate, Activation, Int
 import {Link} from 'react-router-dom';
 import ChakraThree from "../asserts/chakrathree.svg";
 import ChakraFive from "../asserts/chakrafive.svg";
-import {data} from '../data/chakras';   
+import {data} from '../data/chakras';  
+import Home from '../svg/meditation.svg' 
 import {AnimeFour} from '../svg/Animated'
 
 const ChakraFour = () =>{
@@ -18,11 +19,13 @@ const ChakraFour = () =>{
             <div>
                 <Table data={data[3]} />
             </div>
-            <Description data={data[3]} />
-            <Introduction data={data[3]} />
-            <Effect data={data[3]} />
-            {/* <BalancedState data={data[3]} /> */}
-            <Activation data={data[3]} />
+            <div style={{"maxWidth": "600px"}}>
+                <Description data={data[3]} />
+                <Introduction data={data[3]} />
+                <Effect data={data[3]} />
+                <Activation data={data[3]} />
+            </div>
+           
             <div className="footer">
                 <Link to="/Manipura" className="previousLink">
                     <button>
@@ -35,6 +38,11 @@ const ChakraFour = () =>{
                     </button>
                 </Link>
 
+            </div>
+            <div className="homelink">
+                <Link to="/">
+                    <img src={Home} width="45" height="45" alt="home" />
+                </Link>
             </div>
             
         </div>

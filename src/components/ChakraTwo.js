@@ -4,6 +4,7 @@ import {Table, ChakraContainer, ContentHeader, SEOhelate, Activation, Introducti
 import {Link} from 'react-router-dom';
 import {data} from '../data/chakras';
 import {AnimeTwo} from '../svg/Animated'
+import Home from '../svg/meditation.svg'
 import ChakraOne from '../asserts/chakraone.svg';
 import ChakraThree from '../asserts/chakrathree.svg';
 const ChakraTwo = () =>{
@@ -17,11 +18,15 @@ const ChakraTwo = () =>{
             <div>
                 <Table data={data[1]} />
             </div>
+            <div style={{"maxWidth": "600px"}}>
             <Description data={data[1]} />
             <Introduction data={data[1]} />
             <Effect data={data[1]} />
             <BalancedState data={data[1]} />
             <Activation data={data[1]} />
+
+            </div>
+            
             <div className="footer">
                 <Link to="/Muladhara" className="previousLink">
                     <button>
@@ -32,6 +37,11 @@ const ChakraTwo = () =>{
                     <button>
                         <img src={ChakraThree} width='45' height="45" alt="chakraThree"/>
                     </button>
+                </Link>
+            </div>
+            <div className="homelink">
+                <Link to="/">
+                    <img src={Home} width="45" height="45" alt="home" />
                 </Link>
             </div>
         </div>
