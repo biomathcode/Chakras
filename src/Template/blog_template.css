@@ -28,7 +28,7 @@ td {
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
@@ -38,6 +38,8 @@ h1{
 }
 
 .chakraLogo{
+    width: 80%;
+    height: 80%;
     justify-content: center;
 }
 

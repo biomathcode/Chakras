@@ -2033,7 +2033,11 @@ const Navigation = () => {
                 <link id="favicon" rel="icon" href={Flavicon} type="image/x-icon"/> 
       </Helmet>
         <div className="sub-container">
-            <ChakraSvg />
+            <div style={{'height': '65vh', 'width': '65vh'}} className="chakraMap">
+              <ChakraSvg />
+
+            </div>
+            
             {/* <animated.img style={props} src={BodyMap} className="image" alt="logo" width="360px " height="360px"/> */}
             {/* {chakradata.map((chakra) => {
             return (
