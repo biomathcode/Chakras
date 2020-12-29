@@ -38,9 +38,7 @@ h1{
 }
 
 .chakraLogo{
-    width: 80%;
-    height: 80%;
-    justify-content: center;
+    max-width: 90%;
 }
 
 .just-line-break {

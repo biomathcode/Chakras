@@ -75,8 +75,8 @@ const pulse = keyframes`
 
 
 // const StyledLogo = styled(ReactLogo)`
-//     height: 25rem;
-//     width: 25rem;
+//     height: 90%;
+//     width: 90%;
 //     display: block;
 //     margin: auto;
 //     &:hover{
@@ -102,8 +102,8 @@ const pulse = keyframes`
 
 
 const AnimeOne = styled(Chakraone)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -139,8 +139,8 @@ export const ChakraMapAnimated = styled(ChakraMap)`
     }
 `
 export const AnimeTwo = styled(Chakratwo)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -149,8 +149,8 @@ export const AnimeTwo = styled(Chakratwo)`
 `
 
 export const AnimeThree = styled(Chakrathree)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -159,8 +159,8 @@ export const AnimeThree = styled(Chakrathree)`
 `
 
 export const AnimeFour = styled(Chakrafour)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -169,8 +169,8 @@ export const AnimeFour = styled(Chakrafour)`
 `
 
 export const AnimeFive = styled(Chakrafive)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -179,8 +179,8 @@ export const AnimeFive = styled(Chakrafive)`
 `
 
 export const AnimeSix = styled(ChakraSix)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
@@ -189,8 +189,8 @@ export const AnimeSix = styled(ChakraSix)`
 `
 
 export const AnimeSeven = styled(ChakraSeven)`
-    height: 25rem;
-    width: 25rem;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: auto;
     &:hover{
