@@ -2,7 +2,6 @@ import React from 'react';
 import { useSpring, animated} from 'react-spring'
 import {Link} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
-import {ChakraMapAnimated} from '../svg/Animated';
 import Flavicon from '../asserts/favicons/chakraone.ico'
 
 
