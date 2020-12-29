@@ -106,9 +106,7 @@ const AnimeOne = styled(Chakraone)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 export const ChakraMapAnimated = styled(ChakraMap)`
     height: 23rem;
@@ -143,9 +141,7 @@ export const AnimeTwo = styled(Chakratwo)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 
 export const AnimeThree = styled(Chakrathree)`
@@ -153,9 +149,7 @@ export const AnimeThree = styled(Chakrathree)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 
 export const AnimeFour = styled(Chakrafour)`
@@ -163,9 +157,7 @@ export const AnimeFour = styled(Chakrafour)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 
 export const AnimeFive = styled(Chakrafive)`
@@ -173,9 +165,7 @@ export const AnimeFive = styled(Chakrafive)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 
 export const AnimeSix = styled(ChakraSix)`
@@ -183,9 +173,7 @@ export const AnimeSix = styled(ChakraSix)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 
 export const AnimeSeven = styled(ChakraSeven)`
@@ -193,9 +181,7 @@ export const AnimeSeven = styled(ChakraSeven)`
     width: 90%;
     display: block;
     margin: auto;
-    &:hover{
-        animation: ${scale} infinite 2s ease-in 
-    }
+    animation: ${scale} infinite 2s ease-in;
 `
 export const AnimatedChakraOne = () => ( <AnimeOne/>)
 
